@@ -128,18 +128,36 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+/* 480px */
+
 @media screen and (max-width: 480px) {
 
-    .container h2{
-        text-align: center;
-    }
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .row{
-        flex-direction: column;
-        justify-content: center;
+.lessons .col{
+    width: 100%;
+}
+
+.steps .col{
+    width: 100%;
+}
+
+}
+
+/* 480px */
+
+/* 768px */
+
+@media  screen and (max-width:768px) { 
+    .container{
+        width: 100%;
     }
 }
 
- 
- 
- 
+/* 768px */
